@@ -1,0 +1,93 @@
+pre {
+    border: 1pt solid steelblue;
+    margin-top: 10px;
+    white-space: pre-wrap;
+}
+
+div.row {
+    margin-top: 10px;
+}
+
+div#home {
+    margin-top: 10px;
+}
+
+.selected-sample {
+    font-weight: bold;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    border-radius: 2px;
+    padding-left: 20px;
+    background-color: lightblue;
+    border: 1px solid steelblue;
+}
+
+code[class*=language-] {
+    font-size: small;
+}
+
+pre[class*=language-] {
+    line-height: 1.1;
+}
+
+h2, h3 {
+    color: steelblue;
+}
+
+div.menu {
+    border-right: 1px solid silver;
+}
+
+hr {
+    margin: 0.5rem 0;
+}
+
+code[class*=language-],
+pre[class*=language-] {
+    white-space: break-spaces;
+}
+
+table.selection-table {
+    margin-bottom: 10px;
+}
+
+    table.selection-table td {
+        padding-right: 5px;
+    }
+
+.btn-group-sm > .btn, .btn-sm {
+    margin-left: 10px;
+    padding: 0.1rem 0.2rem;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+}
+
+div.logo {
+    border: 3px solid steelblue;
+    border-radius: 5px;
+    font-family: 'Cascadia Code';
+    font-size: 36px;
+    color: steelblue;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    height: 54px;
+    padding-right: 2px;
+    background-color: whitesmoke;
+}
+
+    div.logo img {
+        margin: auto;
+        vertical-align: middle;
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+
+span.net {
+    color: lightsteelblue;
+}
+
+span.core {
+    color: #ccc;
+}
